@@ -57,14 +57,16 @@ body {
 
 .gallery-img {
     display: none;
-    max-height: 600px;
+    max-height: 300px;
+    border-radius: 30px;
+    margin-bottom: 30px;
   }
   
-  .active {
+.active {
     display: block;
   }
   
-  .image-gallery {
+.image-gallery {
     width: 100%;
     display: flex;
     justify-content: center;

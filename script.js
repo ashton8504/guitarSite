@@ -3,6 +3,28 @@ const nodes = document.querySelectorAll(".gallery-img");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "vertical",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
+
 function previous() {
   nextBtn.disabled = false;
   nodes[currentlySelected].classList.remove("active");
