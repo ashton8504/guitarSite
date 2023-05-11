@@ -1,12 +1,49 @@
 /* Styling for the entire page */
+
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0 auto;
 }
 
-.navbar-brand, .nav-link {
-    color: whitesmoke;
+/* Navbar Styling */
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
 }
+
+.nav-link {
+    color: #e7eaf6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #38598b;
+}
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+    color: #a2a8d3; /* Default hover color */
+    cursor: pointer;
+}
+
+
+
+/* .first-color { 
+	background: #e7eaf6; 
+}
+	
+.second-color { 
+	background: #a2a8d3; 
+}
+
+.third-color { 
+	background: #38598b; 
+}
+
+.fourth-color { 
+	background: #113f67; 
+} */
