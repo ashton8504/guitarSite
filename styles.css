@@ -14,6 +14,7 @@ body {
 .navbar-brand{
     font-size: 20px;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 .nav-link {
@@ -25,17 +26,19 @@ body {
 
 .navbar{
     background-color: #464E5C;
+    border-bottom: 2px solid pink;
 }
 
-.navbar-nav > li > a:focus,
-.navbar-nav > li > a:hover {
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover {
     color: #a2a8d3; /* Default hover color */
     cursor: pointer;
 }
 
+
 .company-logo{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: block;
     margin: auto;
     border-radius: 95px;
@@ -49,18 +52,3 @@ body {
     font-family: monospace,sans-serif;
     font-weight: bold;
 }
-/* .first-color { 
-	background: #e7eaf6; 
-}
-	
-.second-color { 
-	background: #a2a8d3; 
-}
-
-.third-color { 
-	background: #38598b; 
-}
-
-.fourth-color { 
-	background: #113f67; 
-} */
