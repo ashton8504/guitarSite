@@ -1,10 +1,12 @@
 /* Styling for the entire page */
+/* color palatte https://palettes.shecodes.io/palettes/1448  */
 
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0 auto;
+    background-color: #a2a8d3;
 }
 
 /* Navbar Styling */
@@ -18,10 +20,11 @@ body {
     color: #e7eaf6;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar{
-    background-color: #38598b;
+    background-color: #464E5C;
 }
 
 .navbar-nav > li > a:focus,
@@ -30,8 +33,22 @@ body {
     cursor: pointer;
 }
 
+.company-logo{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 95px;
+    margin-top: 45px;
+    border: 3px solid #B89068;
+}
 
-
+.yearEst{
+    text-align: center;
+    font-size: 12px;
+    font-family: monospace,sans-serif;
+    font-weight: bold;
+}
 /* .first-color { 
 	background: #e7eaf6; 
 }
