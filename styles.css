@@ -1,0 +1,12 @@
+/* Styling for the entire page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.navbar-brand, .nav-link {
+    color: whitesmoke;
+}
