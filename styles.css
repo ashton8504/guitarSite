@@ -6,7 +6,7 @@
 }
 body {
     margin: 0 auto;
-    background-color: #a2a8d3;
+    background-color: #2d3774;
 }
 
 /* Navbar Styling */
@@ -89,6 +89,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .btn:active {
+    background-color: #ff4136;
+  }
+  
   
   .prev {
     margin-right: 15px;
