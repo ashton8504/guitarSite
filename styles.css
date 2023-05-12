@@ -6,32 +6,33 @@
 }
 body {
     margin: 0 auto;
-    background-color: #2d3774;
+    background-color: #ffffff;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 /* Navbar Styling */
 
 .navbar-brand{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
-    color: #2d3774;
+    color: #eaeaea;
 }
 
 .nav-link {
-    color: #2d3774;
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar{
-    background-color: #AEC6CF;
+    background-color: #5c7893;
     border-bottom: 2px solid pink;
 }
 
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-nav > li > a:hover {
-    color: #a2a8d3; /* Default hover color */
+    color: #000000; /* Default hover color */
     cursor: pointer;
 }
 
@@ -51,6 +52,7 @@ body {
     font-size: 12px;
     font-family: monospace,sans-serif;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 /* Carousel Styles */
@@ -78,4 +80,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: #F0F0F0;
+}
+
+/* Footer Styling */
+.footerStyle{
+    color: #F0F0F0;
+    background-color: #4c638f;
+    border-top: 2px solid pink;
 }
