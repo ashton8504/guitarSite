@@ -32,7 +32,7 @@ window.addEventListener("resize", () => {
 
 // Arista JavaScript Section
 
-const footer2 = document.querySelector(".aristaFooter");
+const footer2 = document.querySelector(".artistaFooter");
 
 const logo2 = document.querySelector(".company-logo-arista-page");
 

@@ -33,13 +33,13 @@
     cursor: pointer;
 }
 
-.aristaBody {
+.artistaBody {
     margin: 0 auto;
     background-color: rgb(32, 38, 57);
     width: 100%;
 }
 
-.aristaHeader {
+.artistaHeader {
     text-align: center;
     margin-top: 40px;
     color: #f0f0f0;
