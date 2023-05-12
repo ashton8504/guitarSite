@@ -1,12 +1,13 @@
 window.addEventListener("scroll", function () {
-  var header = document.querySelector("header");
-  var footer = document.querySelector("footer");
+  var footer = document.querySelector(".jerryFooter");
+  var position = footer.getBoundingClientRect().top;
 
-  if (window.scrollY > 0) {
-    header.classList.add("hide-on-scroll");
-    footer.classList.add("hide-on-scroll");
+  // checking whether the footer is visible
+  if (position < window.innerHeight) {
+    // footer is visible, so show it
+    footer.classList.add("visible");
   } else {
-    header.classList.remove("hide-on-scroll");
-    footer.classList.remove("hide-on-scroll");
+    // footer is not visible, so hide it
+    footer.classList.remove("visible");
   }
 });
