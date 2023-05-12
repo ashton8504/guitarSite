@@ -1,3 +1,5 @@
+// Jerry JavaScript Section
+
 const footer = document.querySelector(".jerryFooter");
 const logo = document.querySelector(".company-logo-jerry-page");
 
@@ -26,4 +28,37 @@ window.addEventListener("load", () => {
 
 window.addEventListener("resize", () => {
   const scrollableHeight = updateScrollableHeight();
+});
+
+// Arista JavaScript Section
+
+const footer2 = document.querySelector(".aristaFooter");
+
+const logo2 = document.querySelector(".company-logo-arista-page");
+
+logo2.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+function updateScrollableHeight2() {
+  const scrollableHeight =
+    document.documentElement.scrollHeight - window.innerHeight;
+  return scrollableHeight;
+}
+
+window.addEventListener("scroll", () => {
+  const scrollableHeight = updateScrollableHeight2();
+  if (window.scrollY >= scrollableHeight) {
+    footer2.classList.add("show-footer");
+  } else {
+    footer2.classList.remove("show-footer");
+  }
+});
+
+window.addEventListener("load", () => {
+  const scrollableHeight = updateScrollableHeight2();
+});
+
+window.addEventListener("resize", () => {
+  const scrollableHeight = updateScrollableHeight2();
 });
