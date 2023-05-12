@@ -57,13 +57,7 @@
     color: whitesmoke;
 }
 
-/* Carousel Styles */
 
-/* .carousel-item img {
-    width: 100%;
-    height: 400px; 
-  }
-   */
 
 /* Jumbotron styling page one */
 
@@ -85,6 +79,62 @@
     font-weight: bold;
     color: #F0F0F0;
 }
+
+/* Jumbotron 2 Testimonials */
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    /* background-color: pink ; */
+  }
+  
+  .testimonial-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonial-quote {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #eeeeee;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-author img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-author p {
+    font-size: 16px;
+    color: #ededed;
+  }
+
+  .customerName{
+    color: whitesmoke;
+  }
+  
 
 /* Footer Styling Main Page */
 .footerStyle{
