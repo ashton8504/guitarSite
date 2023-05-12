@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
+.main-page {
     margin: 0 auto;
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     width: 100%;
@@ -109,6 +109,12 @@ body {
 
 
   /* Jerry Garcia Page Styling */
+
+  .jerryBody {
+    margin: 0 auto;
+    background-color: rgb(32, 38, 57);
+    width: 100%;
+}
 
 
   .jerryHeader{
