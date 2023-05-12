@@ -62,3 +62,14 @@ window.addEventListener("load", () => {
 window.addEventListener("resize", () => {
   const scrollableHeight = updateScrollableHeight2();
 });
+
+// Get all the thumbnail images
+const thumbnails = document.querySelectorAll(".img-thumbnail");
+
+// Loop through each thumbnail and add a click event listener
+thumbnails.forEach(thumbnail => {
+  thumbnail.addEventListener("click", () => {
+    // Toggle the 'active' class on the clicked thumbnail
+    thumbnail.classList.toggle("active");
+  });
+});

@@ -56,12 +56,13 @@
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
-}
-
-.img-thumbnail:hover {
+  }
+  
+  .img-thumbnail:hover,
+  .img-thumbnail:focus {
     transform: scale(1.2);
-    z-index: 5;
-}
+    z-index: 1;
+  }
 
 .section-container {
     position: relative;
