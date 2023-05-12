@@ -1,14 +1,10 @@
+/* Jerry Garcia Page Styling */
+
 /* Styling for the entire page */
 /* color palatte https://palettes.shecodes.io/palettes/1448  */
 
 * {
     box-sizing: border-box;
-}
-
-.main-page {
-    margin: 0 auto;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-    width: 100%;
 }
 
 /* Navbar Styling */
@@ -38,54 +34,6 @@
     cursor: pointer;
 }
 
-
-.company-logo-main-page{
-    width: 400px;
-    height: 400px;
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    margin-top: 45px;
-    border: 3px solid #B89068;
-}
-
-.yearEst{
-    text-align: center;
-    font-size: 12px;
-    font-family: monospace,sans-serif;
-    font-weight: bold;
-    color: whitesmoke;
-}
-
-/* Carousel Styles */
-
-/* .carousel-item img {
-    width: 100%;
-    height: 400px; 
-  }
-   */
-
-/* Jumbotron styling page one */
-
-.jumbotron{
-    color: whitesmoke;
-    /* border: 3px solid red; */
-    padding: 25px;
-    
-}
-
-.display-9{
-    font-weight: bold;
-    color: #ADD8E6;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.lead{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: #F0F0F0;
-}
-
 /* Footer Styling Main Page */
 .footerStyle{
     color: #F0F0F0;
@@ -108,14 +56,11 @@
   }
 
 
-  /* Jerry Garcia Page Styling */
-
-  .jerryBody {
+.jerryBody {
     margin: 0 auto;
     background-color: rgb(32, 38, 57);
     width: 100%;
 }
-
 
   .jerryHeader{
     text-align: center;
@@ -175,6 +120,7 @@
     border-top: 2px solid pink;
     padding: 15px;
     z-index: 9999;
+    visibility: hidden; /* Hide the footer by default */
 
 }
 
