@@ -1,4 +1,4 @@
-/* Arista Page Styling */
+Arista Page Styling
 
 /* Styling for the entire page */
 /* color palette https://palettes.shecodes.io/palettes/1448  */
@@ -82,7 +82,7 @@
 
 /* Footer styling */
 /* Footer styling */
-.aristaFooter {
+.artistaFooter {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -94,7 +94,7 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-.company-logo-arista-page{
+.company-logo-artista-page{
     width: 400px;
     height: 400px;
     display: block;
@@ -117,11 +117,11 @@
     opacity: 1;
 }
 
-.aristaFooter a {
+.artistaFooter a {
     color: #f0f0f0;
     text-decoration: none;
 }
 
-.aristaFooter a:hover {
+.artista a:hover {
     text-decoration: underline;
 }
