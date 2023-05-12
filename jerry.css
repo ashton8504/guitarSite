@@ -111,3 +111,34 @@
 h6, .footer-p{
     color: whitesmoke;
 }
+
+/* Styles for cellphone */
+
+@media (max-width: 768px) {
+
+    /* Navbar Styling */
+    .navbar-brand {
+        font-size: 24px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    
+    /* Section Styling */
+    .section-container {
+        height: auto;
+    }
+    .section-image {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .section-content {
+        margin-top: 50px;
+    }
+
+    /* Footer Styling */
+    .footerStyle{
+        max-width: 100%;
+    }
+}
