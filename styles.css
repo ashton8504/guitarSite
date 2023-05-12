@@ -92,6 +92,7 @@
     background-color: #4c638f;
     border-top: 2px solid pink;
     padding: 15px;
+    margin: auto 0;
 }
 
 .footerStyle a {
