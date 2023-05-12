@@ -1,13 +1,11 @@
-window.addEventListener("scroll", function () {
-  var footer = document.querySelector(".jerryFooter");
-  var position = footer.getBoundingClientRect().top;
+const footer = document.querySelector(".jerryFooter");
 
-  // checking whether the footer is visible
-  if (position < window.innerHeight) {
-    // footer is visible, so show it
-    footer.classList.add("visible");
+window.addEventListener("scroll", () => {
+  const scrollableHeight =
+    document.documentElement.scrollHeight - window.innerHeight;
+  if (window.scrollY >= scrollableHeight) {
+    footer.classList.add("show-footer");
   } else {
-    // footer is not visible, so hide it
-    footer.classList.remove("visible");
+    footer.classList.remove("show-footer");
   }
 });
