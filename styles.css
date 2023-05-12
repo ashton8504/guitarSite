@@ -132,7 +132,6 @@ body {
   
   .img-thumbnail {
     margin: 30px;
-    border: 3px red solid;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
@@ -142,38 +141,7 @@ body {
     transform: scale(1.2);
     z-index: 2;
   }
-  
-  .img-thumbnail.active {
-    transform: scale(1.5);
-    z-index: 3;
-  }
-  
-  .img-thumbnail.previous {
-    transform: translateX(-300%);
-    z-index: 1;
-  }
-  
-  .img-thumbnail.next {
-    transform: translateX(300%);
-    z-index: 1;
-  }
-  
-  .prev-arrow {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
-  
-  .next-arrow {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
-  
+
   .jerryFooter {
     position: relative;
   }
