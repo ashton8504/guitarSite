@@ -12,20 +12,20 @@ body {
 /* Navbar Styling */
 
 .navbar-brand{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
-    color: whitesmoke;
+    color: #2d3774;
 }
 
 .nav-link {
-    color: #e7eaf6;
+    color: #2d3774;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar{
-    background-color: #464E5C;
+    background-color: #AEC6CF;
     border-bottom: 2px solid pink;
 }
 
@@ -69,7 +69,13 @@ body {
     padding: 25px;
 }
 
+.display-9{
+    font-weight: bolder;
+    color: #ADD8E6;
+}
+
 .lead{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    color: #F0F0F0;
 }
