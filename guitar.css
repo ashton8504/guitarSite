@@ -127,6 +127,34 @@ h6, .footer-p{
     color: whitesmoke;
 }
 
+/* Styles for Custom Gutiar Parts */
+
+.jumbotron{
+    color: whitesmoke;
+    padding: 25px;
+    
+}
+
+.display-9{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ADD8E6;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.lead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #F0F0F0;
+}
+
+a.rusch-guitars-link, a.pricingContact {
+    color: F0F0F0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+    
+
 /* Styles for cellphone */
 @media (max-width: 768px) {
 
