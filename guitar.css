@@ -58,8 +58,8 @@
   }
   
 .img-thumbnail {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 35%;
+    max-height: 35%;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
@@ -127,7 +127,6 @@ h6, .footer-p{
 }
 
 /* Styles for cellphone */
-
 @media (max-width: 768px) {
 
     /* Navbar Styling */
@@ -155,5 +154,15 @@ h6, .footer-p{
     .footerStyle{
         max-width: 100%;
         border-top: 2px solid pink;
+    }
+  
+    /* Image Styling */
+    .img-thumbnail {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.5s ease-in-out;
+        margin: 10px;
     }
 }
