@@ -47,8 +47,6 @@
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
 .scrollable {
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +60,8 @@
     max-height: 35%;
     object-fit: cover;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
-    margin: 10px;
+    transition: transform .7s ease-in-out;
+    margin: 15px;
   }
   
   .img-thumbnail:hover,
@@ -104,9 +102,11 @@
 
 .footerStyle{
     border-top: 2px solid pink;
-    max-width: 30%;
+    max-width: 55%;
     margin: 0 auto; /* Centers the footer horizontally */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 45px;
+    /* border: 1px solid red; */
 }
 
 .footerStyle a {
