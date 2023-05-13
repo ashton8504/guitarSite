@@ -115,6 +115,7 @@
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 3px solid #252B42;
   }
   
   .testimonial-author h4 {
