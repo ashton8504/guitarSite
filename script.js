@@ -1,7 +1,7 @@
 // Jerry JavaScript Section
 
 const footer = document.querySelector(".jerryFooter");
-const logo = document.querySelector(".company-logo-jerry-page");
+const logo = document.querySelector(".company-logo-guitar-page");
 
 logo.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });

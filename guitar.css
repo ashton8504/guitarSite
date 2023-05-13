@@ -99,6 +99,12 @@
     border-top: 2px solid pink;
     max-width: 30%;
     margin: 0 auto; /* Centers the footer horizontally */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footerStyle a {
+    color: #F0F0F0;
+    text-decoration: none;
 }
 
 .yearEst{
@@ -141,5 +147,6 @@ h6, .footer-p{
     /* Footer Styling */
     .footerStyle{
         max-width: 100%;
+        border-top: 2px solid pink;
     }
 }
