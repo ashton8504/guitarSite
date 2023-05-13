@@ -141,6 +141,7 @@
     padding: 15px;
     margin: auto 0;
     animation: footerAnimation 2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -157,6 +158,17 @@ h6{
     color: #f0f0f0;
 }
 
+.logoSection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #F0F0F0;
+}
 @keyframes footerAnimation {
     0% {
         opacity: 0;
