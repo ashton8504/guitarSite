@@ -92,7 +92,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
-    /* background-color: pink ; */
+    background-color: #e2eaf1 ;
   }
   
   .testimonial-card:hover {
@@ -104,7 +104,7 @@
     font-size: 18px;
     font-style: italic;
     text-align: center;
-    color: #eeeeee;
+    color: black;
   }
   
   .testimonial-author {
@@ -128,13 +128,12 @@
   
   .testimonial-author p {
     font-size: 16px;
-    color: #ededed;
+    color: black;
   }
 
   .customerName{
-    color: whitesmoke;
+    color: black;
   }
-
   
   
 
