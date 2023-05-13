@@ -153,6 +153,59 @@ a.rusch-guitars-link, a.pricingContact {
     font-weight: bold;
     text-decoration: none;
   }
+
+/* Styles for contact info and pricing */
+
+/* Form Styling */
+.form-group label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%; /* Set input field width */
+    color: white; /* Set text color */
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #6c757d;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Form Container Styling */
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  body {
+    color: white; /* Set text color */
+  }
+  
+  
     
 
 /* Styles for cellphone */

@@ -117,7 +117,33 @@
         <hr class="my-4">
     </div>
 
-    
+    <div class="container">
+        <h2>Order Form</h2>
+        <p>All instruments are hand built & custom crafted one at a time and there is no return policy. If there are any defects upon arrival of the new guitar, Rusch guitars needs to be notified immediately with the issue. If there is any credit to be issued, discounts offered by Rusch Guitars, shipping or difference credits, a check shall be issued 90 days from determination. Lifetime Warranty work must be pre-qualified and pre-approved - the instrument with be shipped back after such work is complete. All Rusch Guitars have a Lifetime Warranty - Thank you, Robert W. Rusch</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter Phone Number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+          </div>
+          <div class="form-group">
+            <label for="comments">Comments:</label>
+            <textarea class="form-control" id="comments" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      
+
 <footer class="py-3 footerStyle">
     <div class="container text-center">
         <img src="./logos/companyLogo.png" class="company-logo-guitar-page" alt="Company Image">
